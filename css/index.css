@@ -164,6 +164,7 @@ a {
 	margin: 0 auto;
 }
 
+/* index.html start */
 header {
 	margin: 4%;
 	display: flex;
@@ -290,6 +291,8 @@ footer nav a {
 	text-decoration: none;
 }
 
+
+/* about.html start */
 .about-top {
 	margin-bottom: 20px;
 	border-bottom: 1px dashed black;
