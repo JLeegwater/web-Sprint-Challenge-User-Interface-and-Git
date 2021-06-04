@@ -49,6 +49,9 @@ table {
 
 * {
     box-sizing: border-box;
+    margin:0;
+    padding:0;
+    max-width:100%;
 }
 
 html, body {
@@ -64,6 +67,10 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+a{
+    text-decoration:none;
+    color:#4f4f4f;
 }
 
 .container {
@@ -144,3 +151,6 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
