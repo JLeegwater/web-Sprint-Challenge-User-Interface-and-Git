@@ -325,20 +325,20 @@ footer nav a {
 	flex-flow: row wrap;
 	justify-content: space-between;
 }
-.tiles .item {
+.tiles .tile {
 	width: 48%;
 	margin-bottom: 5%;
 
 	border-bottom: 1px dashed black;
 	padding-bottom: 2%;
 }
-.item img {
+.tile img {
 	width: 100%;
 }
-.item p {
+.tile p {
 	margin-bottom: 4%;
 }
-.item a {
+.tile a {
 	border: 2px solid black;
 	padding: 1% 5%;
 	border-radius: 8px;
