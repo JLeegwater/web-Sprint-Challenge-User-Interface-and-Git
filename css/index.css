@@ -78,12 +78,37 @@ a{
     margin: 0 auto;
 }
 
+
+
+
+header{
+    margin:4%;
+    display:flex;
+    justify-content: center;
+}
+
+nav{
+    display:flex;
+    justify-content:space-around;
+    align-items:flex-end;
+    flex-direction: row;
+    padding-bottom: 1%;
+    width:60%;
+    margin-left: 4%;
+    color: black;
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.top-content img{
+    margin-bottom: 2%;
 }
 
 .top-content .text-container {
@@ -117,6 +142,37 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box#Box1{
+    background:teal;
+}
+.box#Box2{
+    background:gold;
+}
+.box#Box3{
+    background:cadetblue;
+}
+.box#Box4{
+    background:coral;
+}
+.box#Box5{
+    background:crimson;
+}
+.box#Box6{
+    background:forestgreen;
+}
+.box#Box7{
+    background:darkorchid;
+}
+.box#Box8{
+    background:hotpink;
+}
+.box#Box9{
+    background:indigo;
+}
+.box#Box10{
+    background:dodgerblue;
 }
 
 .bottom-content {
@@ -154,3 +210,63 @@ footer nav a {
 
 
 
+
+
+
+
+.about-top {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-top img{
+    margin-bottom: 2%;
+}
+
+.about-top .about-text {
+    width: 96%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.about-page img{
+        margin-bottom: 2%;
+}
+.About{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+        border-bottom: 1px dashed black;
+}
+
+.tiles{
+    margin: 1%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-between;
+    
+}
+.tiles .item{
+    width:48%;
+    margin-bottom: 5%;
+
+    border-bottom: 1px dashed black;
+    padding-bottom: 2%;
+}
+.item img{
+    width:100%;
+}
+.item p{
+    margin-bottom: 4%;
+}
+.item a{
+    border:2px solid black;
+    padding: 1% 5% ;
+    border-radius: 8px;
+
+}
+
+.about-bottom{
+    margin-bottom: 4%;
+}
